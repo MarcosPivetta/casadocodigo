@@ -14,6 +14,9 @@
 </head>
 <body>
 	<h1>Lista de produtos</h1>
+	
+	<div class="alert alert-success" role="alert">${sucesso }</div>
+	
 	<table class="table">
 		<thead>
 			<tr>
@@ -30,5 +33,6 @@
 			</tr>
 		</c:forEach>
 	</table>
+	<a href="produtos/form">Voltar ao formulário</a>
 </body>
 </html>
